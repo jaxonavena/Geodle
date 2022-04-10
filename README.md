@@ -10,5 +10,5 @@
 - **CONTINENT**- If your guess is in the same continent as the secret country, the box will become green; if it is in a bordering continent, it will become yellow, and if not, will remain grey.
 - **AREA**- If your guess has a land area within 250,000 sq. km of the secret country, the box will become yellow, and if outside this range, grey.
 - **POPULATION**- If your guess has a population within 10 million of the secret country, the box will become yellow, and if outside this range, grey.
-- **ARROWS** - arrows will appear on the area and population boxes to show whether the secret country is lower or higher in that category than the guessed country.
+-   **Arrows** - arrows will appear on the area and population boxes to show whether the secret country is lower or higher in that category than the guessed country.
 - Use the information provided to assist you on your quest to becoming the best Geodler!
