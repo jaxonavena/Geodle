@@ -15,3 +15,4 @@
 
 
 -Run driver.py to play.
+-Some countries lie on the border of continents. Whichever continent they predominantly reside on is classified as their home continent for Geodle's sake. (i.e. Russia is classified as Asian)
