@@ -1,5 +1,5 @@
 # Hackathon2022JaxPeteSpence
-======================================= Welcome to Geodle! =======================================
+===================================== Welcome to Geodle! =====================================
 
 - The goal of the game is to successfully guess the secret country.
 - You are given 10 tries to guess from a list of 100 major countries.
