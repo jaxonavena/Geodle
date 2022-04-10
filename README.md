@@ -12,3 +12,6 @@
 - **POPULATION**- If your guess has a population within 10 million of the secret country, the box will become yellow, and if outside this range, grey.
 -   **Arrows** - arrows will appear on the area and population boxes to show whether the secret country's corresponding value is lower or higher in that category than the guessed country's.
 - Use the information provided to assist you on your quest to becoming the best Geodler!
+
+
+-Run driver.py to play.
