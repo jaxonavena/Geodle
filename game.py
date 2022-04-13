@@ -64,7 +64,7 @@ class Game:
     self.header_shadow_surface = header_font.render("GEODLE", True, (72,77,67))
     self.header_surface = header_font.render("GEODLE", True, (120, 194, 58)) #text, AA?, Color
     self.user_text_surface = input_font.render(self.user_text,True,"Black")
-    self.guess_count_surface = self.guess_count_font.render(f"Guess Count: {str(self.guess_count)}/10",True,"Black")
+    self.guess_count_surface = self.guess_count_font.render(f"Guess Count: {str(self.guess_count)}/8",True,"Black")
     self.categories_surface = self.guess_count_font.render("NAME                          HEMISPHERE                  CONTINENT                  AREA (Km^2)                 POPULATION", True, "Black")
 
     self.invalid_entry_surface = self.guess_count_font.render(self.error_message,True,"Black")
@@ -143,7 +143,7 @@ class Game:
           exit()
 
         #CLICKING
-        if self.guess_count < 10:
+        if self.guess_count < 8:
           if self.game_active:
             if event.type == pygame.MOUSEBUTTONDOWN:
               if self.input_rect.collidepoint(event.pos):
@@ -212,7 +212,7 @@ class Game:
                           self.box_row_list[self.guess_count][4].text = f"{formatted_pop}   ---    {pop_arrow}"
 
                       self.guess_count += 1
-                      self.guess_count_surface = self.guess_count_font.render(f"Guess Count: {str(self.guess_count)}/10",True,"Black")
+                      self.guess_count_surface = self.guess_count_font.render(f"Guess Count: {str(self.guess_count)}/8",True,"Black")
                   self.user_text = ""
 
 
